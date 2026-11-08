@@ -50,3 +50,17 @@ WindowsBehaviourMonitor/
             ├── FilePanel.h / .cpp
             ├── AlertsPanel.h / .cpp
             └── SettingsPanel.h / .cpp
+
+⚙️ Prerequisites
+
+    OS: Windows 10 / 11
+
+    Compiler: MSVC (Visual Studio 2022 or newer)
+
+    Build System: CMake (3.20+)
+
+    Important: This application must be run as Administrator. Without elevated privileges, Windows will block the application from reading the ETW kernel providers, and the Event Log/Alerts will remain empty.
+
+📜 License
+
+This project is open-source and available under the MIT License.
